@@ -1,0 +1,73 @@
+/* # Layout */
+
+div[data-test-id="ContextualNavigation"] {
+    div {
+        background-color: $bg-color !important;
+        color: $text-color !important;
+    }
+
+    button {
+        background-color: $file-row-active-bg !important;
+
+        div {
+            background-color: $file-row-active-bg !important;
+        }
+    }
+
+    ::before {
+        background-color: $bg-color !important;
+    }
+
+    div[role="presentation"] {
+        border-width: 1px;
+        border-color: $bg-color;
+        border-style: solid;
+
+        a[data-test-id="NavigationItem"] {
+            background-color: $file-row-active-bg !important;
+
+            div {
+                background-color: $file-row-active-bg !important;
+            }
+        }
+    }
+
+    img {
+        background-color: $file-row-active-bg !important;
+    }
+}
+
+div[data-test-id="GlobalNavigation"] {
+    div {
+        background-color: $bg-color !important;
+        color: $text-color !important;
+
+        span {
+            background-color: $file-row-active-bg !important;
+
+            a {
+                background-color: $file-row-active-bg !important;
+            }
+        }
+    }
+
+    button {
+        background-color: $file-row-active-bg !important;
+
+        div {
+            background-color: $file-row-active-bg !important;
+
+
+        }
+    }
+
+    div[role="presentation"] {
+        a[data-test-id="NavigationItem"] {
+            background-color: $file-row-active-bg !important;
+
+            div {
+                background-color: $file-row-active-bg !important;
+            }
+        }
+    }
+}

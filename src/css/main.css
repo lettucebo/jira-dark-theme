@@ -1,0 +1,20 @@
+body {
+  filter: invert(88%);
+  background-color: #1f1f1f !important;
+}
+
+#page img,
+.img-wrapper,
+span[role="img"] {
+  filter: invert(88%);
+}
+
+/*#jira {
+  filter: invert(88%);
+  background-color: #191919 !important;
+}
+
+[role="img"], img, .gadget-container {
+  filter: invert(100%);
+}
+*/

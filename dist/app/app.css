@@ -1,0 +1,42 @@
+/* # Layout */
+div[data-test-id="ContextualNavigation"] div {
+  background-color: #24292e !important;
+  color: #9da5b4 !important; }
+
+div[data-test-id="ContextualNavigation"] button {
+  background-color: #434852 !important; }
+  div[data-test-id="ContextualNavigation"] button div {
+    background-color: #434852 !important; }
+
+div[data-test-id="ContextualNavigation"] ::before {
+  background-color: #24292e !important; }
+
+div[data-test-id="ContextualNavigation"] div[role="presentation"] {
+  border-width: 1px;
+  border-color: #24292e;
+  border-style: solid; }
+  div[data-test-id="ContextualNavigation"] div[role="presentation"] a[data-test-id="NavigationItem"] {
+    background-color: #434852 !important; }
+    div[data-test-id="ContextualNavigation"] div[role="presentation"] a[data-test-id="NavigationItem"] div {
+      background-color: #434852 !important; }
+
+div[data-test-id="ContextualNavigation"] img {
+  background-color: #434852 !important; }
+
+div[data-test-id="GlobalNavigation"] div {
+  background-color: #24292e !important;
+  color: #9da5b4 !important; }
+  div[data-test-id="GlobalNavigation"] div span {
+    background-color: #434852 !important; }
+    div[data-test-id="GlobalNavigation"] div span a {
+      background-color: #434852 !important; }
+
+div[data-test-id="GlobalNavigation"] button {
+  background-color: #434852 !important; }
+  div[data-test-id="GlobalNavigation"] button div {
+    background-color: #434852 !important; }
+
+div[data-test-id="GlobalNavigation"] div[role="presentation"] a[data-test-id="NavigationItem"] {
+  background-color: #434852 !important; }
+  div[data-test-id="GlobalNavigation"] div[role="presentation"] a[data-test-id="NavigationItem"] div {
+    background-color: #434852 !important; }
