@@ -52,9 +52,13 @@ div[data-test-id="GlobalNavigation"] div[role="presentation"] a[data-test-id="Na
   #content div {
     background-color: #24292e !important;
     color: #9da5b4 !important; }
-  #content a {
+  #content div.ops-menus.aui-toolbar a {
     background-color: #434852 !important;
     color: #9da5b4 !important; }
+  #content .ghx-issue-content {
+    color: #9da5b4 !important; }
+  #content time {
+    color: darkcyan !important; }
 
 #issuetable {
   background-color: #24292e !important;
@@ -62,3 +66,13 @@ div[data-test-id="GlobalNavigation"] div[role="presentation"] a[data-test-id="Na
   #issuetable tr {
     background-color: #24292e !important;
     color: #9da5b4 !important; }
+
+#activitymodule {
+  background-color: #24292e !important;
+  color: #9da5b4 !important; }
+  #activitymodule a {
+    background-color: #24292e !important; }
+  #activitymodule div.tabwrap.tabs2 strong {
+    color: #9da5b4 !important; }
+  #activitymodule div.tabwrap.tabs2 a {
+    background-color: #24292e !important; }
