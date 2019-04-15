@@ -2,10 +2,8 @@
 
 // Menu
 div[data-test-id="ContextualNavigation"] {
-    div {
-        background-color: $bg-color !important;
-        color: $text-color !important;
-    }
+    background-color: $bg-color !important;
+    color: $text-color !important;
 
     button {
         background-color: $file-row-active-bg !important;
@@ -89,6 +87,12 @@ div[data-test-id="GlobalNavigation"] {
         color: $text-color !important;
     }
 
+    li.drop {
+        a {
+            color: $text-color !important;
+        }
+    }
+
     div.ops-menus.aui-toolbar {
         a {
             background-color: $file-row-active-bg !important;
@@ -102,6 +106,16 @@ div[data-test-id="GlobalNavigation"] {
 
     time {
         color: darkcyan !important;
+    }
+
+    ul.ops > li {
+        background-color: $bg-color !important;
+        color: $text-color !important;
+    }
+
+    .issue-body-content .module > .mod-header .ops {
+        background-color: $bg-color !important;
+        color: $text-color !important;
     }
 }
 
@@ -122,11 +136,6 @@ div[data-test-id="GlobalNavigation"] {
 
     a {
         background-color: $bg-color !important;
-        // color: $text-color !important;
-    }
-
-    span.date {
-        
     }
 
     div.tabwrap.tabs2 {
@@ -137,5 +146,9 @@ div[data-test-id="GlobalNavigation"] {
         a {
             background-color: $bg-color !important;
         }
+    }
+
+    .tabwrap > .tabs.horizontal > li {
+        background-color: $bg-color !important;
     }
 }
