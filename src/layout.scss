@@ -1,5 +1,6 @@
 /* # Layout */
 
+// Menu
 div[data-test-id="ContextualNavigation"] {
     div {
         background-color: $bg-color !important;
@@ -37,6 +38,7 @@ div[data-test-id="ContextualNavigation"] {
     }
 }
 
+// Title
 div[data-test-id="GlobalNavigation"] {
     div {
         background-color: $bg-color !important;
@@ -56,8 +58,6 @@ div[data-test-id="GlobalNavigation"] {
 
         div {
             background-color: $file-row-active-bg !important;
-
-
         }
     }
 
@@ -69,5 +69,39 @@ div[data-test-id="GlobalNavigation"] {
                 background-color: $file-row-active-bg !important;
             }
         }
+    }
+}
+
+// Content
+#content {
+    background-color: $bg-color !important;
+    color: $text-color !important;
+    margin: 0 0 !important;
+
+    h1,
+    h2 {
+        background-color: $bg-color !important;
+        color: $text-color !important;
+    }
+
+    div {
+        background-color: $bg-color !important;
+        color: $text-color !important;
+    }
+
+    a {
+        background-color: $file-row-active-bg !important;
+        color: $text-color !important;
+    }
+}
+
+// Issue Table
+#issuetable {
+    background-color: $bg-color !important;
+    color: $text-color !important;
+
+    tr {
+        background-color: $bg-color !important;
+        color: $text-color !important;
     }
 }

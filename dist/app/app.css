@@ -40,3 +40,25 @@ div[data-test-id="GlobalNavigation"] div[role="presentation"] a[data-test-id="Na
   background-color: #434852 !important; }
   div[data-test-id="GlobalNavigation"] div[role="presentation"] a[data-test-id="NavigationItem"] div {
     background-color: #434852 !important; }
+
+#content {
+  background-color: #24292e !important;
+  color: #9da5b4 !important;
+  margin: 0 0 !important; }
+  #content h1,
+  #content h2 {
+    background-color: #24292e !important;
+    color: #9da5b4 !important; }
+  #content div {
+    background-color: #24292e !important;
+    color: #9da5b4 !important; }
+  #content a {
+    background-color: #434852 !important;
+    color: #9da5b4 !important; }
+
+#issuetable {
+  background-color: #24292e !important;
+  color: #9da5b4 !important; }
+  #issuetable tr {
+    background-color: #24292e !important;
+    color: #9da5b4 !important; }
